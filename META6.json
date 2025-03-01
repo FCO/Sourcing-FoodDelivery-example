@@ -1,0 +1,34 @@
+{
+  "auth": "zef:FCO",
+  "authors": [
+    "Fernando Corrêa de Oliveira"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "an example of usage of Sourcing (a Raku framework to create event sourcing systems)",
+  "license": "Artistic-2.0",
+  "name": "Sourcing::FoodDelivery",
+  "perl": "6.d",
+  "provides": {
+    "Sourcing::FoodDelivery": "lib/Sourcing/FoodDelivery.rakumod",
+    "Sourcing::FoodDelivery::DeliveryStatus": "lib/Sourcing/FoodDelivery/DeliveryStatus.rakumod",
+    "Sourcing::FoodDelivery::Event::DeliveryCompleted": "lib/Sourcing/FoodDelivery/Event/DeliveryCompleted.rakumod",
+    "Sourcing::FoodDelivery::Event::DeliveryStarted": "lib/Sourcing/FoodDelivery/Event/DeliveryStarted.rakumod",
+    "Sourcing::FoodDelivery::Event::OrderAccepted": "lib/Sourcing/FoodDelivery/Event/OrderAccepted.rakumod",
+    "Sourcing::FoodDelivery::Event::OrderCreated": "lib/Sourcing/FoodDelivery/Event/OrderCreated.rakumod",
+    "Sourcing::FoodDelivery::Event::OrderDelivered": "lib/Sourcing/FoodDelivery/Event/OrderDelivered.rakumod",
+    "Sourcing::FoodDelivery::Event::PaymentConfirmed": "lib/Sourcing/FoodDelivery/Event/PaymentConfirmed.rakumod",
+    "Sourcing::FoodDelivery::Event::PaymentFailed": "lib/Sourcing/FoodDelivery/Event/PaymentFailed.rakumod",
+    "Sourcing::FoodDelivery::Event::PaymentInitiated": "lib/Sourcing/FoodDelivery/Event/PaymentInitiated.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "https://github.com/FCO/Sourcing-FoodDelivery-example.git",
+  "tags": [
+  ],
+  "test-depends": [
+  ],
+  "version": "0.0.1"
+}
